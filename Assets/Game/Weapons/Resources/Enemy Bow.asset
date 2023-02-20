@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4a7faf331311b54aa03300965b23c97, type: 3}
+  m_Name: Enemy Bow
+  m_EditorClassIdentifier: 
+  itemID: 51393e24-c8e4-4ab2-a85f-bfcf113fa48c
+  displayName: Red Bow
+  description: 
+  icon: {fileID: 21300000, guid: f8078c2bb5ee88d4a9472f76e501e0f3, type: 3}
+  pickup: {fileID: 1095882265191136880, guid: 615ac5681aefbbb4abd71152bb7772e7, type: 3}
+  stackable: 0
+  allowedEquipLocation: 5
+  animatorOverride: {fileID: 22100000, guid: 2a927dbe87321d44e978ff453713764b, type: 2}
+  weaponPrefab: {fileID: 7155240773605826148, guid: c68232adb0928fb4393ed9d2908d087f, type: 3}
+  weaponRange: 12
+  weaponDamage: 5
+  percentageBonus: 10
+  isRightHanded: 0
+  projectile: {fileID: 1082114105117481577, guid: 375958ba5b0fd7c4bbcaa7c9ed10cbd7, type: 3}
