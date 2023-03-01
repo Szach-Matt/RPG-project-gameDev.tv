@@ -8,8 +8,6 @@ namespace RPG.Attributes
         [SerializeField] RectTransform foreground = null;
         [SerializeField] Canvas rootCanvas = null;
 
-
-
         void Update()
         {
             if (Mathf.Approximately(health.GetFraction(), 0) || Mathf.Approximately(health.GetFraction(), 1))
@@ -21,8 +19,6 @@ namespace RPG.Attributes
             rootCanvas.enabled = true;
             foreground.localScale = new Vector3(health.GetFraction(), 1, 1);
         }
-
-
     }
 }
 

@@ -109,6 +109,5 @@ namespace RPG.Movement
             navMeshAgent.enabled = true;
             GetComponent<ActionScheduler>().CancelCurrentAction();
         }
-
     }
 }
