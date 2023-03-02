@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7e2d79af62d3c6c41bebda290573a096, type: 3}
-  m_Name: New Dialogue
+  m_Name: New Dialogue 1
   m_EditorClassIdentifier: 
   nodes:
   - uniqueID: a
-    text: Hello
+    text: Who are you, do you wanna fight?
     children:
     - s
     - d
   - uniqueID: s
-    text: How are you
+    text: 'Don''t talk to me, bitch! '
     children: []
-  - uniqueID: d
-    text: Go away
+  - uniqueID: sadasd
+    text: Go on
     children: []
