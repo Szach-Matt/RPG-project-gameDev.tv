@@ -18,9 +18,27 @@ MonoBehaviour:
     children:
     - s
     - d
+    position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 200
+      height: 100
   - uniqueID: s
     text: 'Don''t talk to me, bitch! '
     children: []
-  - uniqueID: sadasd
+    position:
+      serializedVersion: 2
+      x: 250
+      y: 0
+      width: 200
+      height: 100
+  - uniqueID: d
     text: Go on
     children: []
+    position:
+      serializedVersion: 2
+      x: 0
+      y: 300
+      width: 200
+      height: 100
