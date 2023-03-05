@@ -13,32 +13,12 @@ MonoBehaviour:
   m_Name: New Dialogue 1
   m_EditorClassIdentifier: 
   nodes:
-  - uniqueID: a
-    text: Who are you, do you wanna fight?
-    children:
-    - s
-    - d
-    position:
+  - uniqueID: 95b214a6-de18-405b-940b-e35ed4fabb53
+    text: 
+    children: []
+    rect:
       serializedVersion: 2
       x: 0
       y: 0
-      width: 200
-      height: 100
-  - uniqueID: s
-    text: 'Don''t talk to me, bitch! '
-    children: []
-    position:
-      serializedVersion: 2
-      x: 250
-      y: 0
-      width: 200
-      height: 100
-  - uniqueID: d
-    text: Go on
-    children: []
-    position:
-      serializedVersion: 2
-      x: 0
-      y: 300
       width: 200
       height: 100
