@@ -66,6 +66,11 @@ namespace RPG.Dialogue
         {
             nodes.Remove(nodeToDelete);
             OnValidate();
+            CleanRemainingChildren(nodeToDelete);
+        }
+
+        private void CleanRemainingChildren(DialogueNode nodeToDelete)
+        {
             foreach (DialogueNode node in GetAllNodes())
             {
                 node.children.Remove(nodeToDelete.uniqueID);
