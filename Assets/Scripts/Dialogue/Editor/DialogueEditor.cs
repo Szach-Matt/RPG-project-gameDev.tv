@@ -217,7 +217,7 @@ namespace RPG.Dialogue.Editor
                 Vector3 controlPointOffset = endPosition - startPosition;
                 controlPointOffset.y = 0;
                 controlPointOffset.x *= 0.8f;
-                // Alternative implementation of bezier curve, it allows the curve to be more durable IMO.
+                // Alternative implementation of bezier curve, it allows the curve to be more durable IMO
                 // Vector3 controlPointOffset = new Vector2(Vector2.Distance(startPosition, endPosition) / 4, 0);
 
                 Handles.DrawBezier(

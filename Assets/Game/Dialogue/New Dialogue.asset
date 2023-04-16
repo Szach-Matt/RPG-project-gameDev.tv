@@ -13,4 +13,46 @@ MonoBehaviour:
   m_Name: New Dialogue
   m_EditorClassIdentifier: 
   nodes:
-  - {fileID: -938882406085759267}
+  - {fileID: 5908826155650953487}
+  - {fileID: 5483136556056433419}
+--- !u!114 &5483136556056433419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0220e93eccc962b46bd7f52a301e3b04, type: 3}
+  m_Name: 441491c7-ea5a-4866-8983-e93bd4737fce
+  m_EditorClassIdentifier: 
+  text: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 876
+    y: 217
+    width: 200
+    height: 100
+--- !u!114 &5908826155650953487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0220e93eccc962b46bd7f52a301e3b04, type: 3}
+  m_Name: 3249ce33-49c5-4a0b-b9b7-17753e4dffc0
+  m_EditorClassIdentifier: 
+  text: 
+  children:
+  - 441491c7-ea5a-4866-8983-e93bd4737fce
+  rect:
+    serializedVersion: 2
+    x: 359
+    y: 164
+    width: 200
+    height: 100
