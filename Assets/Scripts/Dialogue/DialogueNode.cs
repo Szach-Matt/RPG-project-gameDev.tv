@@ -7,6 +7,7 @@ namespace RPG.Dialogue
     [CreateAssetMenu(fileName = "DialogueNode", menuName = "My RPG project/DialogueNode", order = 0)]
     public class DialogueNode : ScriptableObject
     {
+        [SerializeField] bool isPlayerSpeaking = false;
         [SerializeField] string text;
         [SerializeField] List<string> children = new List<string>();
         [SerializeField] Rect rect = new Rect(0, 0, 200, 100);
@@ -24,6 +25,11 @@ namespace RPG.Dialogue
         public List<string> GetChildren()
         {
             return children;
+        }
+
+        public bool IsPlayerSpeaking()
+        {
+            return isPlayerSpeaking;
         }
 
 #if UNITY_EDITOR
@@ -55,6 +61,13 @@ namespace RPG.Dialogue
         {
             Undo.RecordObject(this, "Deleted child Dialogue Node");
             children.Remove(childID);
+            EditorUtility.SetDirty(this);
+        }
+
+        public void SetPlayerSpeaking(bool playerSpeaking)
+        {
+            Undo.RecordObject(this, "Change Dialogue Speaker");
+            isPlayerSpeaking = playerSpeaking;
             EditorUtility.SetDirty(this);
         }
 #endif
